@@ -1,1 +1,59 @@
+body {
+  margin: 0;
+  background: #050d2b;
+  color: white;
+  font-family: Arial, sans-serif;
+}
 
+#toolbar {
+  padding: 10px;
+  background: #08163f;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+button {
+  padding: 10px 16px;
+  cursor: pointer;
+}
+
+#mapContainer {
+  position: relative;
+  width: fit-content;
+  margin: 20px auto;
+}
+
+#mapImage {
+  display: block;
+  max-width: 100%;
+}
+
+#hexOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.hex {
+  fill: rgba(0, 0, 0, 0.65);
+  stroke: rgba(0, 255, 255, 0.15);
+  stroke-width: 1;
+  cursor: pointer;
+}
+
+.hex.revealed {
+  fill: transparent;
+}
+
+.hex.dm {
+  fill: rgba(255, 255, 255, 0.08);
+}
+
+#infoPanel {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #08163f;
+  border-radius: 10px;
+}
