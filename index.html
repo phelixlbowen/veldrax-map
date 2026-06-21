@@ -1,1 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sector Map</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+  <div id="toolbar">
+    <button id="dmToggle">DM Mode: OFF</button>
+  </div>
+
+  <div id="mapContainer">
+    <img id="mapImage" src="map.jpg" alt="Sector Map">
+    <svg id="hexOverlay"></svg>
+  </div>
+
+  <div id="infoPanel">
+    <h2 id="hexName">Unknown Space</h2>
+    <p id="hexDescription">
+      Click a revealed hex to view information.
+    </p>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
