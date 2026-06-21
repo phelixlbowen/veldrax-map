@@ -1,1 +1,17 @@
-
+{
+  "5-5": {
+    "name": "Trade Station Kappa",
+    "description": "A bustling orbital market.",
+    "revealed": true
+  },
+  "10-10": {
+    "name": "Ion Storm",
+    "description": "Electromagnetic interference disrupts navigation.",
+    "revealed": false
+  },
+  "15-8": {
+    "name": "Derelict Freighter",
+    "description": "An abandoned ship drifting in space.",
+    "revealed": false
+  }
+}
